@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+Find service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+h1{font-family:Arial, sans-serif;color:#000000;background-color:#ffffff;}
+p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
+</style>
+</head>
+<body>
+<h1>Find service</h1>
+<p>Welcome to the find service where you can choose one of the existing directories and we'll print you all the files and directories names in it. Enjoy our little stupid service.</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js" integrity="sha512-AcZyhRP/tbAEsXCCGlziPun5iFvcSUpEz2jKkx0blkYKbxU81F+iq8FURwPn1sYFeksJ+sDDrI5XujsqSobWdQ==" crossorigin="anonymous"></script>
+<script>
+ 	var socket = io.connect();
+	socket.emit("root", "nodata");
+	socket.on("Result", (data)=>{
+		console.log(data);
+		var p = document.createElement("p");
+		p.innerHTML = data;
+		document.body.appendChild(p);
+	})
+</script>
+</body>
+</html>

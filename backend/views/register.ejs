@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Register - The spacexers</title>
+<style>
+    
+body {font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;}
+    
+form {border: 3px solid #f1f1f1;
+    width: 70%;
+    display: block;
+    margin: auto;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5179f5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+    
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+    
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+    .sideimg{
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        right: 0;
+        background: url("/img/landing.webp");
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .login{
+        justify-content: space-around;
+        align-content: center;
+        padding: 20px;
+    }
+    
+    @media screen and (max-width: 992px) {
+  .sideimg{
+        visibility: hidden;
+    }
+}
+
+</style>
+</head>
+<body>
+    
+        <div class="row">
+           <div class="col-lg-6 login">
+            <form action="/auth/register" method="post">
+    
+              <div class="imgcontainer" id="imgcontainer">
+                <img src="/img/avatar.png" alt="Avatar" class="avatar">
+              </div>
+
+                
+
+              <div class="container">
+                  
+                  <div>
+                      <label for="file-upload">Browse <input type="file" name="avatar" id="file-upload"></label>
+                  </div>
+                  
+                <label for="email"><b>Full name*</b></label>
+                <input type="text" placeholder="Enter full name" name="fname" required>
+
+                <label for="uname"><b>Username*</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="email"><b>Email*</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password*</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <button type="submit">Register</button>
+                  
+                  <p>You already have an account. 
+                      <a href="login">login now</a>
+                  </p>
+              </div>
+
+
+            </form>
+
+        </div>
+        <div class="col-lg-6 sideimg">
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
