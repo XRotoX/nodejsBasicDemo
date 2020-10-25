@@ -23,7 +23,6 @@ var register = (req, res, next) =>{
 		}
 
 		users.findOne({$or: [{email: req.body.email}, {uname: req.body.uname}]}, function(err, user){
-        console.log(req.body);
 		if(user){
 			console.log("[E]: User already exists.");
 		}
