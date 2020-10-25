@@ -2,7 +2,8 @@
 
 The spacexers is a nodejs based website made to demonstrate the basic use of multiple functionalities using nodejs. It has a home page, a login as well as a signup page and a custom profile along with other services to upload and find some files.
 
-Demo of the web site can be found before 06/11/20 on this link:
+**Demo** of the web site can be found before 06/11/20 on this link:
+
 
 
 ## Features:
@@ -24,9 +25,8 @@ and more...
 
 ## How to use/deploy?
 
--Verify that you have nodejs installed on your machine by typing node -v 
-
--Verify also that you have mongodb installed
+- Verify that you have nodejs installed on your machine by typing node -v 
+- Verify also that you have mongodb installed
 ```linux
 -git clone https://github.com/XRotoX/nodejsBasicDemo.git
 -cd nodejsBasicDemo/
