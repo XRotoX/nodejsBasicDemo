@@ -6,6 +6,7 @@ The spacexers is a nodejs based website made to demonstrate the basic use of mul
 http://www.spacexers.ml/
 
 
+
 ## Features:
 - User session cookie to avoid login in each visit.
 - Password salt-hashed for user password protection against brute force attack [Salt (cryptography)
@@ -13,6 +14,7 @@ http://www.spacexers.ml/
 - Responsive design for laptop as well as mobile.
 - Lightweight frontend code for faster user experience.
 - Realtime connection between server and client.
+
 
 ## Used libraries:
 - express
