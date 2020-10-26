@@ -30,7 +30,7 @@ and more...
 - Verify that you have nodejs installed on your machine by typing node -v 
 - Verify also that you have mongodb installed
 ```linux
--git clone https://github.com/XRotoX/nodejsBasicDemo.git
--cd nodejsBasicDemo/
--node index.js
+$ git clone https://github.com/XRotoX/nodejsBasicDemo.git
+$ cd nodejsBasicDemo/
+$ node index.js
 ```
