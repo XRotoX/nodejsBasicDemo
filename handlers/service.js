@@ -46,6 +46,7 @@ var find = (req, res, next) =>{
 
 };
 
+
 var users, db;
 var mongoClient = require("mongodb").MongoClient;
 mongoClient.connect('mongodb://localhost/', {useNewUrlParser: true, useUnifiedTopology: true}, function(err, client){
