@@ -7,6 +7,8 @@ The spacexers is a nodejs based website made to demonstrate the basic use of mul
 **Demo** of the web site can be found before 06/11/20 on this link:
 https://www.spacexers.ml
 
+**Note:** Using the spacexers website without secured http connection is not recommended and will prevent some services from working fine, such as websocket connection.
+
 
 ## Features:
 - User session cookie to avoid login in each visit.
