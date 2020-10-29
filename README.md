@@ -4,7 +4,7 @@ The spacexers is a nodejs based website made to demonstrate the basic use of mul
 
 ![alt text](https://user-images.githubusercontent.com/31079981/97353013-c89e2a80-1893-11eb-8dde-6d79073b237a.png)
 
-**Demo** of the web site can be found before 06/11/20 on this link:
+**Demo** of the website can be found before 06/11/20 on this link:
 https://www.spacexers.ml
 
 **Note:** Using the spacexers website without secured HTTP (HTTPS) connection is not recommended and will prevent some services from working fine, such as websocket connection.
