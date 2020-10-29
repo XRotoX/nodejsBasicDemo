@@ -12,7 +12,7 @@ https://www.spacexers.ml
 
 ## Features:
 - User session cookie to avoid login in each visit.
-- Password salt-hashed for user password protection against brute force attack [Salt (cryptography).
+- Password salt-hashed for user password protection against brute force attack [Salt (cryptography)
 ](https://en.wikipedia.org/wiki/Salt_(cryptography)).
 - Responsive design for laptop as well as mobile.
 - Lightweight frontend code for faster user experience.
