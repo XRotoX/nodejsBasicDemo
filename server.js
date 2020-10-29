@@ -53,7 +53,7 @@ app.use(function(req, res, next){
 
 
 function start(){
-	const port = process.env.PORT || 80;
+	const port = process.env.PORT || 8888;
 	server.listen(port);
     console.log("[I]: Server listening on port: " + port);
 }
