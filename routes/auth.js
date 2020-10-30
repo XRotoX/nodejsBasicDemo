@@ -7,15 +7,15 @@ var serviceHandler = require("../handlers/service");
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-/*
+
 router.get("/", (req, res) =>{
-	if(req.session.email){
-		res.render("upload.html");
+	if(req.session.fname){
+		res.redirect("/profile");
 	}else{
-		res.redirect("/auth/login");
+		res.render("login");
 	}
 });
-*/
+
 
 
 
